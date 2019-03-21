@@ -1,7 +1,7 @@
 ## Regression을 통해 fireforest area 예측
 ## Multiple Linear Regression
 
-forestfire <- read.csv("bigdata_review/forestfires.csv", stringsAsFactors = TRUE)
+forestfire <- read.csv("forestfires.csv", stringsAsFactors = TRUE)
 
 ## A correlation matrix provides a quick overview of how the independent variables are related to the dependent variable
 cor(forestfire)
